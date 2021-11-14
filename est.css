@@ -1,0 +1,217 @@
+body{
+	background-color: #FFF0F5;
+	color: black;
+	margin: 0px;
+    
+}
+ul{color: black;}
+header{
+	display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: #7f706d;
+    background-image: url("i6.1.jpg") ;
+    
+    align-items: center;
+    font-family: Monaco;
+}
+
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px;
+  opacity: .9;
+}
+p {
+    font-family: 'Italianno', cursive;
+    padding: 20px;
+    font-size: 18px;
+    text-align: justify;
+    margin: 15px 25px;
+    color: black;
+}
+h2{
+    margin: 60px 45px;
+}
+
+h1{margin-left:30px ;
+    text-decoration: blink;
+    font-size: 35px;
+font-family: cursive;}
+
+.logo{
+
+	background: url(icono.png) no-repeat 100% 100%;
+	background-size: contain;
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-left: 0px;
+    text-align: center;
+}
+div{text-align: center;}
+.logo:hover{
+    cursor: pointer;
+}
+.menu{
+
+	
+	position: absolute;
+right: 30px;}
+.menu a{color: black;
+text-decoration: none;
+font-weight: 500;
+margin-left: 30px;
+transition: color 2s;
+font-size: 25;
+text-transform: uppercase;}
+.menu a:hover{color: #F85860;
+}
+.btn {
+    color: black;
+    display: none;
+    position: absolute;
+    right: 20px;
+}
+.btn:hover > span {
+	transition: color 1s;
+    background-color: #E85860;
+}
+.btn span {
+    display: block;
+    margin: 6px;
+    width: 40px;
+    height: 3px;
+    background: black;
+    transition: color 1s;
+}
+@media only screen and (max-width: 1050px){
+	nav{
+		overflow: visible;
+	}
+	.logo{
+	background: url(cat1.gif) no-repeat 80% 80%;
+	background-size: contain;
+	width: 200px;
+	height: 100px;
+	float: left;
+	margin-left: 0px;
+}
+    .menu {
+        color: black;
+        width: 100%;
+        right: 0;
+        top: 80px;
+        background: #f1f1f1E6;
+        overflow: hidden;
+        max-height: 0;
+    }
+    .menu a{
+        color: black;
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+    }
+    .btn {
+        color: black;
+        display: block;
+        cursor: pointer;
+        transition: color 1s;
+    }
+    .show {
+        max-height: 300px;
+        color: black;
+    }
+    }
+
+
+input[type=text], input[type=email], input[type=number],select, textarea {
+  width: 70%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 9px;
+  resize: vertical;
+}
+input[type=radio] {
+  width: 10%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+
+input[type=password] {
+  width: 70%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: black;
+  font-size: 20px;
+}
+input[type=submit],  input[type=reset]{
+
+    margin-top: 20px;
+  background-color: #0b5c63;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #fcba03;
+}
+
+.container {
+  background: url(fox.jpg) 30% 80%;
+  font-family: 'Italianno', cursive;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.container background{display: block;
+  margin-left: auto;
+  margin-right: auto;}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.col-76 {
+  float: right;
+  margin-left: auto;
+  width: 75%;
+  margin-top: 6px;
+}
+.col-50 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 15px;
+}
+.fila:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit], input[type=reset]  {
+    width: 100%;
+    margin-top: 0;
+  }
+}
