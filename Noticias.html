@@ -15,7 +15,20 @@
 	<link rel="stylesheet" type="text/css" href="est.css">
 	<link rel="stylesheet" type="text/css" href="c2.css">
 	<link rel="stylesheet" type="text/css" href="c3.css">
+	<link rel="stylesheet" type="text/css" href="social.css">
+	<link rel="stylesheet" type="text/css" href="font.css">
+	<link rel="stylesheet" type="text/css" href="est1.css">
 	<title>Refugio un nuevo mejor Amigo</title>
+            <div class="social">
+	<ul>
+			<li><a href="http://www.facebook.com" target="_blank" class="icon-facebook"></a></li>
+			<li><a href="https://twitter.com/" target="_blank" class="icon-twitter"></a></li>
+			<li><a href="http://www.youtube.com" target="_blank" class="icon-youtube"></a></li>
+			<li><a href="http://www.google.com" target="_blank" class="icon-google"></a></li>
+			<li><a href="http://www.pinterest.com" target="_blank" class="icon-pinterest"></a></li>
+			<li><a href="mailto:contacto@empresa.com" class="icon-mail"></a></li>
+	</ul>
+</div>
 </head>
 <body>
 	<header>
@@ -30,6 +43,9 @@
 
 						</a>
 <h1>REFUGIO UN NUEVO MEJOR AMIGO</h1>
+    <div class="popup" onclick="myFunction()">Haga click aqui(pop up)
+  <span class="popuptext" id="myPopup">Guau,Guau,Guau...!</span>
+</div>
 <div id="demo"></div>	
 
 	<div class="menu">
@@ -93,9 +109,7 @@
 	</section>
 	<a href="img16.jpg" target="_blank"><img src="img16.jpg"  style="width:30%;"></a>
 	
-	<footer>
-	<p class="p2">Derechos Reservados</p>
-</footer>
+	
 <script type="text/javascript">
 	$(".btn").on("click", function(){
 		$('.menu').toggleClass("show");
@@ -136,4 +150,20 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+
+	<footer>
+		<div class="ctf">
+			<h1>Todos los derechos reservados</h1>
+			<span>Creado por Mancachi Gomez Ronald Carlos @2021</span>
+		    <span>telefono de ref: 78860865 </span>
+		    <span>Correo Electronico: mancachigomez@gmail.com</span>
+		</div>
+	</footer>	
 </html>
